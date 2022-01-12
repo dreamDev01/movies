@@ -7,6 +7,10 @@ This project was created with Create React App.
 
 In the project directory, you can run:
 
+**npm install**
+
+All package dependencies are installed
+
 **npm start**
 
 Runs the app in the development mode.
