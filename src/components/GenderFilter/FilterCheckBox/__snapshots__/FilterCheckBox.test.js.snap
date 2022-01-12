@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests FilterCheckBox should render component 1`] = `
+<div
+  className="checkbox"
+>
+  <input
+    checked={false}
+    data-testid="Drama"
+    name="Drama"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Dramatique
+   (
+  2
+  )
+</div>
+`;

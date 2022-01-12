@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests FilterRadio should render component 1`] = `
+<div
+  className="radio"
+>
+  <input
+    checked={false}
+    data-testid="asc"
+    onChange={[MockFunction]}
+    type="radio"
+    value="asc"
+  />
+  Ascending
+</div>
+`;

@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.basket {
+  margin: 50px 300px 50px 300px;
+  border: 1px solid $borderColor;
+  border-radius: $borderRadius;
+
+  &__title {
+    margin: 0;
+    padding: 5px 20px 10px 10px;
+    font-weight: bold;
+    border-bottom: 1px solid $borderColor;
+    background-color: $titleColor;
+  }
+
+  &__total {
+    text-align: right;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+  }
+}

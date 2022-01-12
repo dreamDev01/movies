@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests Pagination should render component 1`] = `
+<nav
+  aria-label="..."
+>
+  <ul
+    className="pagination"
+  >
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        data-testid="prev"
+        onClick={[Function]}
+        tabIndex="-1"
+      >
+        Previous
+      </button>
+    </li>
+    <li
+      className="page-item"
+      onClick={[Function]}
+    >
+      <button
+        className="page-link"
+      >
+        1
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        data-testid="next"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Next
+      </button>
+    </li>
+  </ul>
+</nav>
+`;

@@ -1,0 +1,12 @@
+@import "../../styles/variables";
+
+.footer {
+  background-color: $barColor;
+  &__title {
+    display: grid;
+    justify-items: end;
+    margin-right: 10px;
+    font-size: 14px;
+    color: white;
+  }
+}

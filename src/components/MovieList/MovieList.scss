@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2px;
+}
+
+.grid-layout {
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  margin: 0 var($outerPagePadding) var($outerPagePadding) var($outerPagePadding);
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 105px 40px 0;
+}
